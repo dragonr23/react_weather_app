@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import './index.css';
-import { Switch, Route } from 'react-router-dom';
 
 
 class WeatherTitle extends Component {
