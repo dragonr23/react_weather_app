@@ -40,9 +40,11 @@ class Weather extends Component {
 
     let data = await response.json();
 
+    console.log(data);
+
     this.setState({ data });
     }
-    
+
   render(){
     return (
       <div className="row">

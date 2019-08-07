@@ -7,6 +7,8 @@ class WeatherInfo extends Component {
   render(){
     let data = this.props.data;
 
+
+
     return (
       <div className="row">
         <div className="col-md-12">
